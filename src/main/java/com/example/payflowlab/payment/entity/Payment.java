@@ -10,7 +10,7 @@ import jakarta.persistence.Id;
 @Entity
 public class Payment {
 
-    @Id
+    @Id //기본키 생성
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
